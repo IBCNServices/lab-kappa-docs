@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Installation manual</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="installation-manual">Installation manual</h1>
+<h2 id="windows">Windows</h2>
+<p>Windows users will have to enable Hyper-V in order to use to full power of Docker. <strong>Therefore VirtualBox will NOT WORK ANYMORE</strong>.
+VMWare will be used for virtual machines in the future. In case you still want to use virtualbox, you have two options:</p>
+<ul>
+<li>You have enough RAM: you can use Docker toolbox, but this is at own risk. We will provide minimal support for this (but you can always ask us a question in case of problems). Make sure to search for &quot;how to enlarge ram memory for Docker toolbox&quot;.
+<ul>
+<li>See <a href="https://github.com/crops/docker-win-mac-docs/wiki/Windows-Instructions-(Docker-Toolbox)">https://github.com/crops/docker-win-mac-docs/wiki/Windows-Instructions-(Docker-Toolbox)</a></li>
+</ul>
+</li>
+<li>You can enable a dual boot to choose between a Windows 10 with Hyper-V active and one without Hyper-V. This approach is not recommended, but if you want to, you can ask the lab responsibles for more information.</li>
+</ul>
+<p>VMWare can be downloaded from <a href="https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html">https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html</a> by clicking on &quot;Try Workstation 15.5 Player for Windows&quot;
+<img src="file:///c:\Users\Jerico\Nextcloud\Work_Documents\Lessen\GDV\2020 - 2021\Installatiehandleiding\vmware.png" alt="vmware"></p>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li>Windows 10 - version 2004: Download through <a href="https://www.microsoft.com/nl-nl/software-download/windows10">https://www.microsoft.com/nl-nl/software-download/windows10</a> and follow to on-screen instructions
+<ul>
+<li>You can check your version through settings &gt; system &gt; about &gt; &quot;Windows Specications&quot;</li>
+</ul>
+</li>
+</ul>
+<p><img src="file:///c:\Users\Jerico\Nextcloud\Work_Documents\Lessen\GDV\2020 - 2021\Installatiehandleiding\about.png" alt="foto"></p>
+<ul>
+<li>Enable some Windows modules
+<ul>
+<li>Go to control panel (configuratiescherm) &gt; Program and Features</li>
+<li>On the left side you should see an option to &quot;Turn Windows features on or off&quot;</li>
+</ul>
+</li>
+</ul>
+<p><img src="file:///c:\Users\Jerico\Nextcloud\Work_Documents\Lessen\GDV\2020 - 2021\Installatiehandleiding\controlpanel.PNG" alt="control panel"></p>
+<ul>
+<li>Select the following features:
+<ul>
+<li>Containers</li>
+<li>Hyper-V</li>
+<li>Virtual Machine Platform</li>
+<li>Windows Hypervisor Platform</li>
+<li>Windows Subsystem for Linux</li>
+</ul>
+</li>
+<li>Click on &quot;OK&quot; and these features will be installed on your PC. Some reboots will be required during the installation process.</li>
+</ul>
+<h3 id="docker-installation">Docker installation</h3>
+<ul>
+<li>Install Docker for Windows CE edition from:
+<ul>
+<li><a href="https://docs.docker.com/docker-for-windows/install-windows-home/">https://docs.docker.com/docker-for-windows/install-windows-home/</a> for Windows 10 Home users</li>
+<li><a href="https://docs.docker.com/docker-for-windows/install/">https://docs.docker.com/docker-for-windows/install/</a> for Windows 10 Enterprise or Pro users</li>
+<li>Make sure to select the stable version</li>
+</ul>
+</li>
+<li>Follow to on-screen instructions
+<ul>
+<li>Make sure to enable the following option (already enabled by default): &quot;Use the WSL 2 based engine&quot;</li>
+<li>Start Docker after the installation.</li>
+</ul>
+</li>
+</ul>
+<h3 id="visual-studio-code">Visual Studio Code</h3>
+<ul>
+<li>Download and install Visual Studio Code from <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>
+<ul>
+<li>Enable the option to add &quot;code&quot; to PATH</li>
+</ul>
+</li>
+<li>Start Visual Studio Code</li>
+<li>Navigate to Extensions</li>
+</ul>
+<p><img src="file:///c:\Users\Jerico\Nextcloud\Work_Documents\Lessen\GDV\2020 - 2021\Installatiehandleiding\extensions.png" alt="extensions"></p>
+<ul>
+<li>Search the Python extension and install</li>
+</ul>
+<p><img src="file:///c:\Users\Jerico\Nextcloud\Work_Documents\Lessen\GDV\2020 - 2021\Installatiehandleiding\python_extension.png" alt="python"></p>
+<ul>
+<li>Search for the Remote containers extension and install</li>
+</ul>
+<p><img src="file:///c:\Users\Jerico\Nextcloud\Work_Documents\Lessen\GDV\2020 - 2021\Installatiehandleiding\remote_containers.png" alt="remote_containers"></p>
+<p>You are now ready to start coding using Visual Studio Code and Docker!</p>
+<h2 id="macos">MacOS</h2>
+<p><a href="https://stackoverflow.com/questions/32834082/how-to-increase-docker-machine-memory-mac">https://stackoverflow.com/questions/32834082/how-to-increase-docker-machine-memory-mac</a></p>
+
+    </body>
+    </html>
