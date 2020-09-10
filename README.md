@@ -1,7 +1,5 @@
 # Public documentation
 
-## Introduction
-
 This is the public documentation used in the course "Gedistribueerde Gegevensverwerking (GDV)". Please open an issue if something is unclear or if you have issues installing the development tools. Bonus points if you create a PR with fixes!
 
 ## Contents
