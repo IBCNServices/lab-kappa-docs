@@ -6,7 +6,8 @@ Windows users will have to enable Hyper-V in order to use to full power of Docke
   * See [https://github.com/crops/docker-win-mac-docs/wiki/Windows-Instructions-(Docker-Toolbox)](https://github.com/crops/docker-win-mac-docs/wiki/Windows-Instructions-(Docker-Toolbox))
 * You can enable a dual boot to choose between a Windows 10 with Hyper-V active and one without Hyper-V. This approach is not recommended, but if you want to, you can ask the assistants for more information.
 
-VMWare can be downloaded from [https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) by clicking on "Try Workstation 15.5 Player for Windows"
+VMWare can be downloaded from [https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) by clicking on "Try Workstation 15.5 Player for Windows".
+
 ![VMWare](img/vmware.png)
 
 ## Requirements
@@ -14,13 +15,13 @@ VMWare can be downloaded from [https://www.vmware.com/products/workstation-playe
 * Windows 10 - version 2004: Download through [https://www.microsoft.com/nl-nl/software-download/windows10](https://www.microsoft.com/nl-nl/software-download/windows10) and follow to on-screen instructions
   * You can check your version through settings > system > about > "Windows Specifications"
 
-![foto](img/about.png)
+  ![foto](img/about.png)
 
 * Enable some Windows modules
   * Go to control panel (configuratiescherm) > Program and Features
   * On the left side you should see an option to "Turn Windows features on or off"
   
-![control panel](img/controlpanel.png)
+  ![control panel](img/controlpanel.png)
 
 * Select the following features:
   * Containers
@@ -46,15 +47,15 @@ VMWare can be downloaded from [https://www.vmware.com/products/workstation-playe
   * Enable the option to add "code" to PATH
 * Start Visual Studio Code
 * Navigate to Extensions
-  
-![extensions](img/extensions.png)
+
+  ![extensions](img/extensions.png)
 
 * Search the Python extension and install
-  
-![python](img/python_extension.png)
+
+  ![python](img/python_extension.png)
 
 * Search for the Remote containers extension and install
   
-![remote_containers](img/remote_containers.png)
+  ![remote_containers](img/remote_containers.png)
 
 You are now ready to start coding using Visual Studio Code and Docker!
