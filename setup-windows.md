@@ -30,6 +30,7 @@ VMWare can be downloaded from [https://www.vmware.com/products/workstation-playe
   * Windows Hypervisor Platform
   * Windows Subsystem for Linux
 * Click on "OK" and these features will be installed on your PC. Some reboots will be required during the installation process.
+* Git must be installed in configured on your system
 
 ## Docker installation
 
