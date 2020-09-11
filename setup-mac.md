@@ -33,6 +33,3 @@ In contrast to the Windows installation, Mac users can still use Virtualbox for 
   ![remote_containers](img/remote_containers.png)
 
 You are now ready to start coding using Visual Studio Code and Docker!
-
-
-https://stackoverflow.com/questions/32834082/how-to-increase-docker-machine-memory-mac
