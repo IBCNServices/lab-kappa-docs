@@ -1,7 +1,6 @@
 # General installation manual for Ubuntu
 
-> *Note: we only support Ubuntu 20.04.* You can use another version or distribution, but then you're on
-
+> *Note: we only support Ubuntu 20.04.* You can use another version or distribution, but we cannot guarantee it will work.
 
 1. Install the GCC toolchain and build dependencies.
 
