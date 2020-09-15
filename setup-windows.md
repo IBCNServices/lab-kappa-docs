@@ -1,4 +1,4 @@
-# GDV & DevOps installation manual for Windows
+# General installation manual for Windows
 
 These courses use Docker Desktop on Windows. This is the recommended and most powerful way to run Docker on Windows, but it requires Hyper-V; the Microsoft virtualization hypervisor. As of writing this, VirtualBox still does not fully support Hyper-V, so **VirtualBox will not work anymore** after running these instructions. Other courses of Industrieel Ingenieur Informatica will use VMWare to run virtual machines, because that supports Hyper-V.
 

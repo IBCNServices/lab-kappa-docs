@@ -1,4 +1,4 @@
-# GDV & DevOps general installation manual for macOS
+# General installation manual for macOS
 
 In contrast to the Windows installation, Mac users can still use VirtualBox for their virtual machines. A transition to VMWare is possible, but this is only with a paid license. Other non-free VM-software for macOS is Parallels Desktop.
 

@@ -14,7 +14,7 @@ Please first follow the general instructions. Then install the specific instruct
 
 ### Specific instructions - Gedistribueerde Gegevensverwerking (GDV)
 
-* [Ubuntu installation guide - GDV](./gdv-setup-mac.md)
+* [Ubuntu installation guide - GDV](./gdv-setup-ubuntu.md)
 * [Windows installation guide - GDV](./gdv-setup-windows.md)
 * [macOS installation guide - GDV](./gdv-setup-mac.md)
 
