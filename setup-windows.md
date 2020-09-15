@@ -32,6 +32,17 @@ You can download VMWare from [https://www.vmware.com/products/workstation-player
 * Click on "OK" and these features will be installed on your PC. Some reboots will be required during the installation process.
 * Git must be installed in configured on your system
 
+## Git installation
+
+1. Install git using the Windows installer from [their website](https://git-scm.com/). **Use the default settings of the git installer.**
+1. Open the "git bash" program from the start menu. This will open a commandline shell. Configure your username and email using the following commands.
+
+   ```bash
+   # Run this inside git bash with the correct email and name
+   git config --global user.email "you@example.com"
+   git config --global user.name "Your Name"
+   ```
+
 ## Docker installation
 
 * Install Docker for Windows CE edition from:
