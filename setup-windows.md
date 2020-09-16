@@ -43,6 +43,20 @@ You can download VMWare from [https://www.vmware.com/products/workstation-player
    git config --global user.name "Your Name"
    ```
 
+## Zoom installation
+
+* Download the Zoom Client for Meetings from [https://zoom.us/download](https://zoom.us/download)
+  * Follow the on-screen instructions
+  * Login through "SSO"
+    * Instructions can be found on [https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View](https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View)
+    * *Only availabe in Dutch*
+
+## Microsoft Teams installation
+
+* Download the Microsoft Teams application from [https://www.microsoft.com/nl-be/microsoft-365/microsoft-teams/download-app](https://www.microsoft.com/nl-be/microsoft-365/microsoft-teams/download-app)
+  * Follow the on-screen instructions
+  * Use your UGent-account to login
+
 ## Docker installation
 
 * Install Docker for Windows CE edition from:

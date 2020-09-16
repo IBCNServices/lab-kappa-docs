@@ -28,6 +28,11 @@
     sudo snap install zoom-client
     ```
 
+   * Follow the on-screen instructions
+     * Login through "SSO"
+       * Instructions can be found on [https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View](https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View)
+       * *Only availabe in Dutch*
+
 ## Next steps
 
 Please follow the specific installation manuals for the courses you attend.
