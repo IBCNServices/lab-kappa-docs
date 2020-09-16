@@ -2,39 +2,60 @@
 
 > *Note: we only support Ubuntu 20.04.* You can use another version or distribution, but we cannot guarantee it will work.
 
-1. Install the GCC toolchain and build dependencies.
+## Git installation
 
-    ```bash
-    sudo apt install git
-    ```
+First, install git using the package manager.
 
-1. Configure git with your username.
+```bash
+sudo apt install git
+```
 
-    ```bash
-    # Run this with the correct email and name
-    git config --global user.email "you@example.com"
-    git config --global user.name "Your Name"
-    ```
+After installation, configure git with your username.
 
-1. Install VSCode
+```bash
+# Run this with the correct email and name
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
 
-    ```bash
-    sudo snap install code --classic
-    ```
+## Zoom installation
 
-1. Install Zoom
+Zoom will be used for presentations during labs and to help students remotely. Because the Zoom web client does not support remote control, you need to install the Zoom desktop app.
 
-    ```bash
-    sudo snap install zoom-client
-    ```
+```bash
+sudo snap install zoom-client
+```
 
-   * Follow the on-screen instructions
-     * Login through "SSO"
-       * Instructions can be found on [https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View](https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View)
-       * *Only availabe in Dutch*
+* Follow the on-screen instructions
+  * Login through "SSO"
+  * Instructions can be found on [https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View](https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View)
+  * *Only available in Dutch*
+
+## Microsoft Teams installation
+
 1. Install Microsoft Teams using the DEB [from their website](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app).
 
    > *Note: Installing the file straight from the browser might fail. In this case, first download it to a directory and then open it using Files.*
+
+## Docker installation
+
+Install Docker from the Ubuntu repository
+
+```shell
+sudo apt install docker.io
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
+
+After this, **restart your computer**.
+
+## Visual Studio Code
+
+Install VSCode using the snap.
+
+```bash
+sudo snap install code --classic
+```
 
 ## Next steps
 

@@ -13,19 +13,21 @@ In contrast to the Windows installation, Mac users can still use VirtualBox for 
 1. Install git using the one of the options provided on [https://git-scm.com/download/mac](https://git-scm.com/download/mac). **Use the default settings of the git installer.**
 2. Open your terminal and configure your username and email using the following commands.
 
-   ```bash
-   # Run this inside the terminal with the correct email and name
-   git config --global user.email "you@example.com"
-   git config --global user.name "Your Name"
-   ```
+```bash
+# Run this inside the terminal with the correct email and name
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
 
 ## Zoom installation
+
+Zoom will be used for presentations during labs and to help students remotely. Because the Zoom web client does not support remote control, you need to install the Zoom desktop app.
 
 * Download the Zoom Client for Meetings from [https://zoom.us/download](https://zoom.us/download)
   * Follow the on-screen instructions
   * Login through "SSO"
     * Instructions can be found on [https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View](https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View)
-    * *Only availabe in Dutch*
+    * *Only available in Dutch*
 
 ## Microsoft Teams installation
 

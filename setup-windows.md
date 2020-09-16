@@ -45,11 +45,13 @@ You can download VMWare from [https://www.vmware.com/products/workstation-player
 
 ## Zoom installation
 
+Zoom will be used for presentations during labs and to help students remotely. Because the Zoom web client does not support remote control, you need to install the Zoom desktop app.
+
 * Download the Zoom Client for Meetings from [https://zoom.us/download](https://zoom.us/download)
   * Follow the on-screen instructions
   * Login through "SSO"
     * Instructions can be found on [https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View](https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View)
-    * *Only availabe in Dutch*
+    * *Only available in Dutch*
 
 ## Microsoft Teams installation
 
