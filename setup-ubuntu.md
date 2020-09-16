@@ -32,6 +32,9 @@
      * Login through "SSO"
        * Instructions can be found on [https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View](https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View)
        * *Only availabe in Dutch*
+1. Install Microsoft Teams using the DEB [from their website](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app).
+
+   > *Note: Installing the file straight from the browser might fail. In this case, first download it to a directory and then open it using Files.*
 
 ## Next steps
 
