@@ -26,16 +26,13 @@ Zoom will be used for presentations during labs and to help students remotely. B
 sudo snap install zoom-client
 ```
 
-* Follow the on-screen instructions
-  * Login through "SSO"
-  * Instructions can be found on [https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View](https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View)
-  * *Only available in Dutch*
+When you start Zoom, login through "SSO", use the `ugent-be` domain and use your UGent email address. For more instructions (only in Dutch) see [Activatie van Zoom door studenten](https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View).
 
 ## Microsoft Teams installation
 
-1. Install Microsoft Teams using the DEB [from their website](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app).
+Install Microsoft Teams using the DEB [from their website](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app).
 
-   > *Note: Installing the file straight from the browser might fail. In this case, first download it to a directory and then open it using Files.*
+> *Note: Installing the file straight from the browser might fail. In this case, first download it to a directory and then open it using Files.*
 
 ## Docker installation
 
