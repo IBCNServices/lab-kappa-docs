@@ -24,8 +24,8 @@ You can download VMWare from [https://www.vmware.com/products/workstation-player
   ![control panel](img/controlpanel.png)
 
 * Select the following features:
-  * Containers
-  * Hyper-V
+  * Containers *(Not available for Windows Home users)*
+  * Hyper-V *(Not available for Windows Home users)*
   * Virtual Machine Platform
   * Windows Hypervisor Platform
   * Windows Subsystem for Linux
