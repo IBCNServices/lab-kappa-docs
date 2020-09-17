@@ -68,6 +68,10 @@ Zoom will be used for presentations during labs and to help students remotely. B
 * Follow to on-screen instructions
   * Make sure to enable the following option (already enabled by default): "Use the WSL 2 based engine"
   * Start Docker after the installation.
+* If you receive a notification about a kernel update:
+  * Follow the instructions provided [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package) and install the WSL2 Linux kernel update under Step 4. Reboot afterwards.
+  * Execute the command in an elevated Powershell illustrated in Step 5: `wsl --set-default-version 2`
+  * Docker should now start succesfully. If you receive an `IOException`, make sure your virtualisation is enabled in your BIOS.
 
 ## Visual Studio Code
 
