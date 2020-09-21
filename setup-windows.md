@@ -73,8 +73,23 @@ When you start Zoom, login through "SSO", use the `ugent-be` domain and use your
 
 ## Visual Studio Code
 
-* Download and install Visual Studio Code from [https://code.visualstudio.com/](https://code.visualstudio.com/)
-  * Enable the option to add "code" to PATH
+1. Download and install Visual Studio Code from [https://code.visualstudio.com/](https://code.visualstudio.com/)
+   * Enable the option to add "code" to PATH
+
+1. Start Visual Studio Code
+1. Navigate to Extensions
+
+   ![extensions](img/extensions.png)
+
+1. Search the Python extension and install
+
+   ![python](img/python_extension.png)
+
+1. Search for the Remote containers extension and install
+  
+   ![remote_containers](img/remote_containers.png)
+
+1. Now you are ready to start the labs! Note that each lab might have additional installation instructions. Make sure to complete those before that specific lab starts.
 
 ## Next steps
 

@@ -4,25 +4,9 @@ This is the public documentation used in the course "Gedistribueerde Gegevensver
 
 ## Contents
 
-Please first follow the general instructions. Then install the specific instructions for the courses you're following.
-
-### General instructions
-
-* [Ubuntu installation guide - General](./setup-ubuntu.md)
-* [Windows installation guide - General](./setup-windows.md)
-* [macOS installation guide - General](./setup-mac.md)
-
-### Specific instructions - Gedistribueerde Gegevensverwerking (GDV)
-
-* [Ubuntu installation guide - GDV](./gdv-setup-ubuntu.md)
-* [Windows installation guide - GDV](./gdv-setup-windows.md)
-* [macOS installation guide - GDV](./gdv-setup-mac.md)
-
-### Specific instructions - Softwareontwikkeling en -beheer (DevOps)
-
-* [Ubuntu installation guide - DevOps](./devops-setup-ubuntu.md)
-* [Windows installation guide - DevOps](./devops-setup-windows.md)
-* [macOS installation guide - DevOps](./devops-setup-mac.md)
+* [Ubuntu installation guide](./setup-ubuntu.md)
+* [Windows installation guide](./setup-windows.md)
+* [macOS installation guide](./setup-mac.md)
 
 ## Copyright
 

@@ -48,17 +48,19 @@ After this, **restart your computer**.
 
 ## Visual Studio Code
 
-Install VSCode using the snap.
+1. Install VSCode using the snap.
 
-```bash
-sudo snap install code --classic
-```
+   ```bash
+   sudo snap install code --classic
+   ```
 
-## Next steps
+1. Install the vscode "Remote - Containers" extension from Microsoft.
 
-Please follow the specific installation manuals for the courses you attend.
+   ```bash
+   # Note: you might need to reboot before the `vscode` command becomes available.
+   code --install-extension ms-vscode-remote.remote-containers
+   ```
 
-* [Ubuntu installation guide - GDV](./gdv-setup-ubuntu.md)
-* [Ubuntu installation guide - DevOps](./devops-setup-ubuntu.md)
+1. Now you are ready to start the labs! Note that each lab might have additional installation instructions. Make sure to complete those before that specific lab starts.
 
 > Are you having problems during the installation? Please create an issue in [the docs repository](https://github.ugent.be/GDV/docs/issues). We speak both Dutch and English.

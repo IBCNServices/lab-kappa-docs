@@ -44,14 +44,15 @@ When you start Zoom, login through "SSO", use the `ugent-be` domain and use your
 
 ## Visual Studio Code
 
-* Download and install Visual Studio Code from [https://code.visualstudio.com/](https://code.visualstudio.com/)
-  * Enable the option to add "code" to PATH
+1. Download and install Visual Studio Code from [https://code.visualstudio.com/](https://code.visualstudio.com/)
+   * Enable the option to add "code" to PATH
+1. Install the vscode "Remote - Containers" extension from Microsoft.
 
-## Next steps
+   ```bash
+   # Note: you might need to reboot before the `vscode` command becomes available.
+   code --install-extension ms-vscode-remote.remote-containers
+   ```
 
-Please follow the specific installation manuals for the courses you attend.
-
-* [macOS installation guide - GDV](./gdv-setup-mac.md)
-* [macOS installation guide - DevOps](./devops-setup-mac.md)
+1. Now you are ready to start the labs! Note that each lab might have additional installation instructions. Make sure to complete those before that specific lab starts.
 
 > Are you having problems during the installation? Please create an issue in [the docs repository](https://github.ugent.be/GDV/docs/issues). We speak both Dutch and English.
