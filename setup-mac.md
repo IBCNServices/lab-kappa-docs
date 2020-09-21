@@ -23,11 +23,9 @@ git config --global user.name "Your Name"
 
 Zoom will be used for presentations during labs and to help students remotely. Because the Zoom web client does not support remote control, you need to install the Zoom desktop app.
 
-* Download the Zoom Client for Meetings from [https://zoom.us/download](https://zoom.us/download)
-  * Follow the on-screen instructions
-  * Login through "SSO"
-    * Instructions can be found on [https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View](https://ufora.ugent.be/d2l/le/content/9061/viewContent/463766/View)
-    * *Only available in Dutch*
+Download the Zoom Client for Meetings from [https://zoom.us/download](https://zoom.us/download) and install it.
+
+When you start Zoom, login through "SSO", use the `ugent-be` domain and use your UGent email address. The first time you login, an account will be made for you automatically. For more instructions (only in Dutch) see [Zoom handleiding studenten](https://web.microsoftstream.com/video/2096e73b-f69b-4c84-b2da-a27e06da6d34?referrer=https:%2F%2Fonderwijstips.ugent.be%2Fnl%2Ftips%2Fzoom%2F).
 
 ## Microsoft Teams installation
 
