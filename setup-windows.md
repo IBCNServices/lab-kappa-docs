@@ -49,7 +49,7 @@ Zoom will be used for presentations during labs and to help students remotely. B
 
 Download the Zoom Client for Meetings from [https://zoom.us/download](https://zoom.us/download) and install it.
 
-When you start Zoom, login through "SSO", use the `ugent-be` domain and use your UGent email address. The first time you login, an account will be made for you automatically. For more instructions (only in Dutch) see [Zoom handleiding studenten](https://web.microsoftstream.com/video/2096e73b-f69b-4c84-b2da-a27e06da6d34?referrer=https:%2F%2Fonderwijstips.ugent.be%2Fnl%2Ftips%2Fzoom%2F).
+When you start Zoom, login through "SSO", use the `ugent-be` domain and use your UGent email address. The first time you login, an account will be made for you automatically. For more instructions (only in Dutch) see [Zoom handleiding studenten](https://web.microsoftstream.com/video/2096e73b-f69b-4c84-b2da-a27e06da6d34?referrer=https:%2F%2Fonderwijstips.ugent.be%2Fnl%2Ftips%2Fzoom%2F) (login using your UGent email).
 
 ## Microsoft Teams installation
 
@@ -90,12 +90,5 @@ When you start Zoom, login through "SSO", use the `ugent-be` domain and use your
    ![remote_containers](img/remote_containers.png)
 
 1. Now you are ready to start the labs! Note that each lab might have additional installation instructions. Make sure to complete those before that specific lab starts.
-
-## Next steps
-
-Please follow the specific installation manuals for the courses you attend.
-
-* [Windows installation guide - GDV](./gdv-setup-windows.md)
-* [Windows installation guide - DevOps](./devops-setup-windows.md)
 
 > Are you having problems during the installation? Please create an issue in [the docs repository](https://github.ugent.be/GDV/docs/issues). We speak both Dutch and English.
