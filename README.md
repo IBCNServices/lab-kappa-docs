@@ -7,6 +7,7 @@ This is the public documentation used in the course "Gedistribueerde Gegevensver
 * [Ubuntu installation guide](./setup-ubuntu.md)
 * [Windows installation guide](./setup-windows.md)
 * [macOS installation guide](./setup-mac.md)
+* [FAQ](./faq.md)
 
 ## Copyright
 
