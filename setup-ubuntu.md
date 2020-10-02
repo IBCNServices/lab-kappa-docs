@@ -34,6 +34,14 @@ Install Microsoft Teams using the DEB [from their website](https://www.microsoft
 
 > *Note: Installing the file straight from the browser might fail. In this case, first download it to a directory and then open it using Files.*
 
+## Slack installation
+
+You can use the Slack web client for these labs but it might be useful to install the Slack app for better desktop integration.
+
+```bash
+sudo snap install slack
+```
+
 ## Docker installation
 
 Install Docker from the Ubuntu repository
