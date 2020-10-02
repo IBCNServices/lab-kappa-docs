@@ -33,6 +33,10 @@ When you start Zoom, login through "SSO", use the `ugent-be` domain and use your
   * Follow the on-screen instructions
   * Use your UGent-account to login
 
+## Slack installation
+
+* Download and install Slack from [https://slack.com/intl/en-be/downloads/mac](https://slack.com/intl/en-be/downloads/mac).
+
 ## Docker installation
 
 1. Install Docker Desktop on Mac CE edition from:

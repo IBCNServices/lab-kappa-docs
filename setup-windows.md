@@ -59,6 +59,10 @@ When you start Zoom, login through "SSO", use the `ugent-be` domain and use your
   * Follow the on-screen instructions
   * Use your UGent-account to login
 
+## Slack installation
+
+* Download and install Slack from [https://slack.com/intl/en-be/downloads/windows](https://slack.com/intl/en-be/downloads/windows).
+
 ## Docker installation
 
 * Install Docker for Windows CE edition from:
