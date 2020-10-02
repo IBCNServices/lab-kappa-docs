@@ -4,7 +4,7 @@ These courses use Docker Desktop on Windows. This is the recommended and most po
 
 Older tutorials might mention *Docker Toolbox* for Windows. However, this does not support all the features required for GDV and DevOps so **you cannot use Docker Toolbox**.
 
-> *Note: You can export VirtualBox VM's into `.ovi` format and then import them into VMWare. For more information see [Importing Virtual Machine from Oracle VirtualBox to VMware](https://kb.vmware.com/s/article/2053864).*
+> *Note: You can export VirtualBox VM's into `.ova` format (version 1.0) and then import them into VMWare. For more information see [Importing Virtual Machine from Oracle VirtualBox to VMware](https://kb.vmware.com/s/article/2053864).*
 >
 > *If you absolutely need to use VirtualBox, it is possible to create a dualboot of Windows 10 with Hyper-V enabled and Windows 10 without Hyper-V. **We do not recommend this approach** but we can provide some information if you are interested.*
 
