@@ -24,15 +24,15 @@ Enable additional Windows features
 
 1. Go to control panel (configuratiescherm) > Program and Features
 1. On the left side you should see an option to "Turn Windows features on or off"
-  
-  ![control panel](img/controlpanel.png)
+
+   ![control panel](img/controlpanel.png)
 
 1. Select the following features:
-  * Containers *(optional; Not available for Windows Home users)*
-  * Hyper-V *(optional; Not available for Windows Home users)*
-  * Virtual Machine Platform
-  * Windows Hypervisor Platform
-  * Windows Subsystem for Linux
+   * Containers *(optional; Not available for Windows Home users)*
+   * Hyper-V *(optional; Not available for Windows Home users)*
+   * Virtual Machine Platform
+   * Windows Hypervisor Platform
+   * Windows Subsystem for Linux
 1. Click on "OK" and these features will be installed on your PC. Some reboots will be required during the installation process.
 
 ## Git installation
