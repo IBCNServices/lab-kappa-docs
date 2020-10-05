@@ -12,26 +12,28 @@ You can download VMWare from [https://www.vmware.com/products/workstation-player
 
 ![VMWare](img/vmware.png)
 
-## Requirements
+## Prepare Windows
 
-* Windows 10 - version 2004: Download through [https://www.microsoft.com/nl-nl/software-download/windows10](https://www.microsoft.com/nl-nl/software-download/windows10) and follow to on-screen instructions
-  * You can check your version through settings > system > about > "Windows Specifications"
+Install update version 2004 or later of Windows 10. You can download this update through [https://www.microsoft.com/nl-nl/software-download/windows10](https://www.microsoft.com/nl-nl/software-download/windows10). You can check your version through "Settings" > "System" > "About" > "Windows Specifications".
 
-  ![foto](img/about.png)
+![foto](img/about.png)
 
-* Enable some Windows modules
-  * Go to control panel (configuratiescherm) > Program and Features
-  * On the left side you should see an option to "Turn Windows features on or off"
+> ⚠️ The labs require at least version 2004 of Windows Home, Pro, Enterprise or Education.
+
+Enable additional Windows features
+
+1. Go to control panel (configuratiescherm) > Program and Features
+1. On the left side you should see an option to "Turn Windows features on or off"
   
   ![control panel](img/controlpanel.png)
 
-* Select the following features:
-  * Containers *(Not available for Windows Home users)*
-  * Hyper-V *(Not available for Windows Home users)*
+1. Select the following features:
+  * Containers *(optional; Not available for Windows Home users)*
+  * Hyper-V *(optional; Not available for Windows Home users)*
   * Virtual Machine Platform
   * Windows Hypervisor Platform
   * Windows Subsystem for Linux
-* Click on "OK" and these features will be installed on your PC. Some reboots will be required during the installation process.
+1. Click on "OK" and these features will be installed on your PC. Some reboots will be required during the installation process.
 
 ## Git installation
 
