@@ -16,7 +16,7 @@ python -m pip install 'traitlets==5.0.4' --force-reinstall
 * Quit Docker desktop
 * Install all windows updates (if available)
 * Quit visual studio code
-* Start Docker desktop als administrator (righ-click > Run as administrator)
+* Start Docker desktop as administrator (righ-click > Run as administrator)
   * If docker is hanging on startup, follow these steps:
     * Stop Docker Desktop
     * Open Powershell and execute these commands:
