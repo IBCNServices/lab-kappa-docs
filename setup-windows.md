@@ -11,7 +11,10 @@ These courses use Docker Desktop on Windows. **This is the recommended and most 
 
 You can download VMWare from [https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) by clicking on "Try Workstation 15.5 Player for Windows". Installing VMWare is not required for these courses.
 
-![VMWare](img/vmware.png)
+<p align="center">
+<img src="img/vmware.png" width="80%" align="center"/>
+</p>
+
 
 ## Prepare Windows
 
