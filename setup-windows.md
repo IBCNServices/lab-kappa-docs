@@ -58,16 +58,6 @@ Download the Zoom Client for Meetings from [https://zoom.us/download](https://zo
 
 When you start Zoom, login through "SSO", use the `ugent-be` domain and use your UGent email address. The first time you login, an account will be made for you automatically. For more instructions (only in Dutch) see [Zoom handleiding studenten](https://web.microsoftstream.com/video/2096e73b-f69b-4c84-b2da-a27e06da6d34?referrer=https:%2F%2Fonderwijstips.ugent.be%2Fnl%2Ftips%2Fzoom%2F) (login using your UGent email).
 
-## Microsoft Teams installation
-
-* Download the Microsoft Teams application from [https://www.microsoft.com/nl-be/microsoft-365/microsoft-teams/download-app](https://www.microsoft.com/nl-be/microsoft-365/microsoft-teams/download-app)
-  * Follow the on-screen instructions
-  * Use your UGent-account to login
-
-## Slack installation
-
-* Download and install Slack from [https://slack.com/intl/en-be/downloads/windows](https://slack.com/intl/en-be/downloads/windows).
-
 ## Docker installation
 
 * Install Docker for Windows CE edition from:
