@@ -1,11 +1,11 @@
 # General installation manual for macOS
 
-In contrast to the Windows installation, Mac users can still use VirtualBox for their virtual machines. A transition to VMWare is possible, but this is only with a paid license. Other non-free VM-software for macOS is Parallels Desktop.
+In contrast to the Windows installation, Mac users can still use VirtualBox for their virtual machines. A transition to VMWare is possible (you can download VMWare fusion for free after creating an account [here](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal)). Other non-free VM-software for macOS is Parallels Desktop.
 
 ## Requirements
 
 * **Mac hardware must be a 2010 or a newer model**, with Intel’s hardware support for memory management unit (MMU) virtualization, including Extended Page Tables (EPT) and Unrestricted Mode. You can check to see if your machine has this support by running the following command in a terminal: `sysctl kern.hv_support`. If your Mac supports the Hypervisor framework, the command prints `kern.hv_support: 1`
-* **macOS must be version 10.13 or newer.** That is, Catalina, Mojave, or High Sierra. We recommend upgrading to the latest version of macOS. **NOTE**, once macOS 11 (Big Sur) is released, Catalina will not be supported anymore!
+* **macOS must be version 10.14 or newer.** That is Mojave, High Sierra or Big Sur. We recommend upgrading to the latest version of macOS. **NOTE**, please do not install the newest macOs version (Monterey) before our approval (we will evaluate it asap once it is released)
 * At least 8 GB of RAM
 
 ## Git installation
@@ -21,21 +21,11 @@ git config --global user.name "Your Name"
 
 ## Zoom installation
 
-Zoom will be used for presentations during labs and to help students remotely. Because the Zoom web client does not support remote control, you need to install the Zoom desktop app.
+Zoom will be used for presentations during labs and to help students remotely (not preferred) who are not able to join on campus. Because the Zoom web client does not support remote control, you need to install the Zoom desktop app.
 
 Download the Zoom Client for Meetings from [https://zoom.us/download](https://zoom.us/download) and install it.
 
 When you start Zoom, login through "SSO", use the `ugent-be` domain and use your UGent email address. The first time you login, an account will be made for you automatically. For more instructions (only in Dutch) see [Zoom handleiding studenten](https://web.microsoftstream.com/video/2096e73b-f69b-4c84-b2da-a27e06da6d34?referrer=https:%2F%2Fonderwijstips.ugent.be%2Fnl%2Ftips%2Fzoom%2F) (login using your UGent email).
-
-## Microsoft Teams installation
-
-* Download the Microsoft Teams application from [https://www.microsoft.com/nl-be/microsoft-365/microsoft-teams/download-app](https://www.microsoft.com/nl-be/microsoft-365/microsoft-teams/download-app)
-  * Follow the on-screen instructions
-  * Use your UGent-account to login
-
-## Slack installation
-
-* Download and install Slack from [https://slack.com/intl/en-be/downloads/mac](https://slack.com/intl/en-be/downloads/mac).
 
 ## Docker installation
 
