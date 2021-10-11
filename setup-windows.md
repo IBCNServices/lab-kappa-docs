@@ -4,7 +4,7 @@
 
 These courses use Docker Desktop on Windows. **This is the recommended and most powerful way to run Docker on Windows, but it requires Hyper-V; the Microsoft virtualization hypervisor.** As of writing this, VirtualBox still does not fully support Hyper-V, so **VirtualBox will not work anymore** after running these instructions. Other courses of Industrieel Ingenieur Informatica will support VMWare to run virtual machines, because that supports Hyper-V.
 
-> ⚠️ Older tutorials might mention *Docker Toolbox* for Windows. However, this does not support all the features required for GDV and DevOps so **you cannot use Docker Toolbox**.
+> ⚠️ Older tutorials might mention *Docker Toolbox* for Windows. However, this does not support all the features required for GDV so **you cannot use Docker Toolbox**.
 >
 > *Note: You can export VirtualBox VM's into `.ova` format (version 1.0) and then import them into VMWare. For more information see [Importing Virtual Machine from Oracle VirtualBox to VMware](https://kb.vmware.com/s/article/2053864).*
 >
