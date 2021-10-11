@@ -1,10 +1,11 @@
 # General installation manual for Windows
 
 ## Before you start
+
 These courses use Docker Desktop on Windows. **This is the recommended and most powerful way to run Docker on Windows, but it requires Hyper-V; the Microsoft virtualization hypervisor.** As of writing this, VirtualBox still does not fully support Hyper-V, so **VirtualBox will not work anymore** after running these instructions. Other courses of Industrieel Ingenieur Informatica will support VMWare to run virtual machines, because that supports Hyper-V.
 
-> ⚠️ Older tutorials might mention *Docker Toolbox* for Windows. However, this does not support all the features required for GDV and DevOps so **you cannot use Docker Toolbox**.    
-
+> ⚠️ Older tutorials might mention *Docker Toolbox* for Windows. However, this does not support all the features required for GDV and DevOps so **you cannot use Docker Toolbox**.
+>
 > *Note: You can export VirtualBox VM's into `.ova` format (version 1.0) and then import them into VMWare. For more information see [Importing Virtual Machine from Oracle VirtualBox to VMware](https://kb.vmware.com/s/article/2053864).*
 >
 > *If you absolutely need to use VirtualBox, it is possible to create a dualboot of Windows 10 with Hyper-V enabled and Windows 10 without Hyper-V. **We do not recommend this approach** but we can provide some information if you are interested.*
@@ -15,10 +16,9 @@ You can download VMWare from [https://www.vmware.com/products/workstation-player
 <img src="img/vmware.png" width="80%" align="center"/>
 </p>
 
-
 ## Prepare Windows
 
-Install update version 2004 or later of Windows 10. You can download this update through [https://www.microsoft.com/nl-nl/software-download/windows10](https://www.microsoft.com/nl-nl/software-download/windows10). You can check your version through "Settings" > "System" > "About" > "Windows Specifications".
+Install the latest updates for Windows 10. You need at least version 2004. You can download this update through [https://www.microsoft.com/nl-nl/software-download/windows10](https://www.microsoft.com/nl-nl/software-download/windows10). You can check your version through "Settings" > "System" > "About" > "Windows Specifications".
 
 ![foto](img/about.png)
 
@@ -60,16 +60,13 @@ When you start Zoom, login through "SSO", use the `ugent-be` domain and use your
 
 ## Docker installation
 
-* Install Docker for Windows CE edition from:
-  * [https://docs.docker.com/docker-for-windows/install-windows-home/](https://docs.docker.com/docker-for-windows/install-windows-home/) for Windows 10 Home users
-  * [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/) for Windows 10 Enterprise or Pro users
+* Install Docker Desktop from [https://docs.docker.com/desktop/windows/install/](https://docs.docker.com/desktop/windows/install/).
   * Make sure to select the stable version
 * Follow to on-screen instructions
   * Make sure to enable the following option (already enabled by default): "Use the WSL 2 based engine"
   * Start Docker after the installation.
 * If you receive a notification about a kernel update:
-  * Follow the instructions provided [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package) and install the WSL2 Linux kernel update under Step 4. Reboot afterwards.
-  * Execute the command in an elevated Powershell illustrated in Step 5: `wsl --set-default-version 2`
+  * Follow the instructions provided [here](https://docs.microsoft.com/en-us/windows/wsl/install#install) to switch to WSL2. Reboot afterwards.
   * Docker should now start succesfully. If you receive an `IOException`, make sure your virtualisation is enabled in your BIOS.
 
 ## Visual Studio Code

@@ -29,8 +29,8 @@ When you start Zoom, login through "SSO", use the `ugent-be` domain and use your
 
 ## Docker installation
 
-1. Install Docker Desktop on Mac CE edition from:
-   * [https://docs.docker.com/docker-for-mac/install/](https://docs.docker.com/docker-for-mac/install/)
+1. Install Docker Desktop for macOS from:
+   * [https://docs.docker.com/desktop/mac/install/](https://docs.docker.com/desktop/mac/install/)
    * Make sure to select the stable version
 1. Once downloaded, mount the .dmg file, and drag the Docker application to your Applications folder.
 1. Open the Docker application and follow the on-screen instructions (elevated access will be asked)
