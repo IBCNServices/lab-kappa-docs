@@ -1,28 +1,12 @@
 # General installation manual for Windows
 
-## Before you start
-
-These courses use Docker Desktop on Windows. **This is the recommended and most powerful way to run Docker on Windows, but it requires Hyper-V; the Microsoft virtualization hypervisor.** As of writing this, VirtualBox still does not fully support Hyper-V, so **VirtualBox will not work anymore** after running these instructions. Other courses of Industrieel Ingenieur Informatica will support VMWare to run virtual machines, because that supports Hyper-V.
-
-> ⚠️ Older tutorials might mention *Docker Toolbox* for Windows. However, this does not support all the features required for GDV so **you cannot use Docker Toolbox**.
->
-> *Note: You can export VirtualBox VM's into `.ova` format (version 1.0) and then import them into VMWare. For more information see [Importing Virtual Machine from Oracle VirtualBox to VMware](https://kb.vmware.com/s/article/2053864).*
->
-> *If you absolutely need to use VirtualBox, it is possible to create a dualboot of Windows 10 with Hyper-V enabled and Windows 10 without Hyper-V. **We do not recommend this approach** but we can provide some information if you are interested.*
-
-You can download VMWare from [https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) by clicking on "Try Workstation 15.5 Player for Windows". Installing VMWare is not required for these courses.
-
-<p align="center">
-<img src="img/vmware.png" width="80%" align="center"/>
-</p>
-
 ## Prepare Windows
 
 Install the latest updates for Windows 10. You need at least version 2004. You can download this update through [https://www.microsoft.com/nl-nl/software-download/windows10](https://www.microsoft.com/nl-nl/software-download/windows10). You can check your version through "Settings" > "System" > "About" > "Windows Specifications".
 
 ![foto](img/about.png)
 
-> ⚠️ The labs require at least version 2004 of Windows Home, Pro, Enterprise or Education.
+> ⚠️ The labs require at least version 2004 of Windows 10 Home, Pro, Enterprise or Education. **Windows 11 is not yet supported for GDV. We will notify the students once everything required for our labs is compatible with Windows 11.*
 
 Enable additional Windows features
 
@@ -59,6 +43,8 @@ Download the Zoom Client for Meetings from [https://zoom.us/download](https://zo
 When you start Zoom, login through "SSO", use the `ugent-be` domain and use your UGent email address. The first time you login, an account will be made for you automatically. For more instructions (only in Dutch) see [Zoom handleiding studenten](https://web.microsoftstream.com/video/2096e73b-f69b-4c84-b2da-a27e06da6d34?referrer=https:%2F%2Fonderwijstips.ugent.be%2Fnl%2Ftips%2Fzoom%2F) (login using your UGent email).
 
 ## Docker installation
+
+> ⚠️ Older tutorials might mention *Docker Toolbox* for Windows. However, this does not support all the features required for GDV so **you cannot use Docker Toolbox**.
 
 * Install Docker Desktop from [https://docs.docker.com/desktop/windows/install/](https://docs.docker.com/desktop/windows/install/).
   * Make sure to select the stable version
