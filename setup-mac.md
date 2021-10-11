@@ -1,7 +1,5 @@
 # General installation manual for macOS
 
-In contrast to the Windows installation, Mac users can still use VirtualBox for their virtual machines. A transition to VMWare is possible (you can download VMWare fusion for free after creating an account [here](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal)). Other non-free VM-software for macOS is Parallels Desktop.
-
 ## Requirements
 
 * **Mac hardware must be a 2010 or a newer model**, with Intel’s hardware support for memory management unit (MMU) virtualization, including Extended Page Tables (EPT) and Unrestricted Mode. You can check to see if your machine has this support by running the following command in a terminal: `sysctl kern.hv_support`. If your Mac supports the Hypervisor framework, the command prints `kern.hv_support: 1`
@@ -48,5 +46,11 @@ When you start Zoom, login through "SSO", use the `ugent-be` domain and use your
    ```
 
 1. Now you are ready to start the labs! Note that each lab might have additional installation instructions. Make sure to complete those before that specific lab starts.
+
+## [Optional] VMWare installation
+
+Some courses require you to run Virtual Machines on macOS. In our experience, VirtualBox has poor performance on macOS. You can install VMWare for free using the following instructions. You will not need VMWare for GDV.
+
+Install [VMware Fusion Player](https://www.vmware.com/be/products/fusion.html). As a student, you can use it for free by clicking on "Get a Free 'Personal Use' License". During registration, you might get stuck on the "Activate Your My VMware Account" step. If this is the case, log out from the website by surfing to [https://my.vmware.com/web/vmware/logout](https://my.vmware.com/web/vmware/logout), refresh all VMware pages and try to register again for the personal use license.
 
 > Are you having problems during the installation? Please create an issue in [the docs repository](https://github.ugent.be/GDV/docs/issues). We speak both Dutch and English.
