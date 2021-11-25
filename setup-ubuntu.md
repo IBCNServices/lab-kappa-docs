@@ -33,7 +33,7 @@ When you start Zoom, login through "SSO", use the `ugent-be` domain and use your
 Install Docker from the Ubuntu repository
 
 ```shell
-sudo apt install docker.io
+sudo apt install docker.io docker-compose
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
