@@ -28,6 +28,16 @@ sudo snap install zoom-client
 
 When you start Zoom, login through "SSO", use the `ugent-be` domain and use your UGent email address. The first time you login, an account will be made for you automatically. For more instructions (only in Dutch) see [Zoom handleiding studenten](https://web.microsoftstream.com/video/2096e73b-f69b-4c84-b2da-a27e06da6d34?referrer=https:%2F%2Fonderwijstips.ugent.be%2Fnl%2Ftips%2Fzoom%2F) (login using your UGent email).
 
+## Slack installation
+
+You can use the Slack web client for these labs but it might be useful to install the Slack app for better desktop integration.
+
+```bash
+sudo snap install slack
+```
+
+Use the link in one of the announcements on Ufora to connect to the GDV workspace.
+
 ## Docker installation
 
 Install Docker from the Ubuntu repository
