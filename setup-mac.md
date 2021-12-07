@@ -4,6 +4,7 @@
 
 * **Mac hardware must be a 2010 or a newer model**, with Intel’s hardware support for memory management unit (MMU) virtualization, including Extended Page Tables (EPT) and Unrestricted Mode. You can check to see if your machine has this support by running the following command in a terminal: `sysctl kern.hv_support`. If your Mac supports the Hypervisor framework, the command prints `kern.hv_support: 1`
 * **macOS must be version 10.14 or newer.** That is Mojave, High Sierra or Big Sur. We recommend upgrading to the latest version of macOS. **NOTE**, please do not install the newest macOs version (Monterey) before our approval (we will evaluate it asap once it is released)
+* **M1 Macs are not supported**.
 * At least 8 GB of RAM
 
 ## Git installation
@@ -16,20 +17,6 @@
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
-
-## Zoom installation
-
-Zoom will be used for presentations during labs and to help students remotely (not preferred) who are not able to join on campus. Because the Zoom web client does not support remote control, you need to install the Zoom desktop app.
-
-Download the Zoom Client for Meetings from [https://zoom.us/download](https://zoom.us/download) and install it.
-
-When you start Zoom, login through "SSO", use the `ugent-be` domain and use your UGent email address. The first time you login, an account will be made for you automatically. For more instructions (only in Dutch) see [Zoom handleiding studenten](https://web.microsoftstream.com/video/2096e73b-f69b-4c84-b2da-a27e06da6d34?referrer=https:%2F%2Fonderwijstips.ugent.be%2Fnl%2Ftips%2Fzoom%2F) (login using your UGent email).
-
-## Slack installation
-
-* Download and install Slack from [https://slack.com/intl/en-be/downloads/mac](https://slack.com/intl/en-be/downloads/mac).
-
-Use the link in one of the announcements on Ufora to connect to the GDV workspace.
 
 ## Docker installation
 
@@ -55,8 +42,8 @@ Use the link in one of the announcements on Ufora to connect to the GDV workspac
 
 ## [Optional] VMWare installation
 
-Some courses require you to run Virtual Machines on macOS. In our experience, VirtualBox has poor performance on macOS. You can install VMWare for free using the following instructions. You will not need VMWare for GDV.
+If you experience trouble installing Docker, you can try our Virtual Machine. You can install VMWare for free using the following instructions.
 
 Install [VMware Fusion Player](https://www.vmware.com/be/products/fusion.html). As a student, you can use it for free by clicking on "Get a Free 'Personal Use' License". During registration, you might get stuck on the "Activate Your My VMware Account" step. If this is the case, log out from the website by surfing to [https://my.vmware.com/web/vmware/logout](https://my.vmware.com/web/vmware/logout), refresh all VMware pages and try to register again for the personal use license.
 
-> Are you having problems during the installation? Please create an issue in [the docs repository](https://github.ugent.be/GDV/docs/issues). We speak both Dutch and English.
+> Are you having problems during the installation? Please create an issue in [the docs repository](https://github.com/IBCNServices/lab-kappa-docs/issues). We speak both Dutch and English.

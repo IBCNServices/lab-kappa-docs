@@ -18,26 +18,6 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
-## Zoom installation
-
-Zoom will be used for presentations during labs and to help students remotely. Because the Zoom web client does not support remote control, you need to install the Zoom desktop app.
-
-```bash
-sudo snap install zoom-client
-```
-
-When you start Zoom, login through "SSO", use the `ugent-be` domain and use your UGent email address. The first time you login, an account will be made for you automatically. For more instructions (only in Dutch) see [Zoom handleiding studenten](https://web.microsoftstream.com/video/2096e73b-f69b-4c84-b2da-a27e06da6d34?referrer=https:%2F%2Fonderwijstips.ugent.be%2Fnl%2Ftips%2Fzoom%2F) (login using your UGent email).
-
-## Slack installation
-
-You can use the Slack web client for these labs but it might be useful to install the Slack app for better desktop integration.
-
-```bash
-sudo snap install slack
-```
-
-Use the link in one of the announcements on Ufora to connect to the GDV workspace.
-
 ## Docker installation
 
 Install Docker from the Ubuntu repository
@@ -67,4 +47,4 @@ After this, **restart your computer**.
 
 1. Now you are ready to start the labs! Note that each lab might have additional installation instructions. Make sure to complete those before that specific lab starts.
 
-> Are you having problems during the installation? Please create an issue in [the docs repository](https://github.ugent.be/GDV/docs/issues). We speak both Dutch and English.
+> Are you having problems during the installation? Please create an issue in [the docs repository](https://github.com/IBCNServices/lab-kappa-docs/issues). We speak both Dutch and English.
