@@ -6,7 +6,7 @@ Install the latest updates for Windows 10. You need at least version 2004. You c
 
 ![foto](img/about.png)
 
-> ⚠️ The labs require at least version 2004 of Windows 10 Home, Pro, Enterprise or Education. Windows 11 should work, but is not recommended.
+> ⚠️ The labs require at least version 2004 of Windows 10 Home, Pro, Enterprise or Education, or Windows 11.
 
 Enable additional Windows features
 
