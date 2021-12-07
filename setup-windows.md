@@ -65,6 +65,6 @@ Enable additional Windows features
   
    ![remote_containers](img/remote_containers.png)
 
-1. Now you are ready to start the labs! Note that each lab might have additional installation instructions. Make sure to complete those before that specific lab starts.
+1. Now you are ready to start the lab!
 
 > Are you having problems during the installation? Please create an issue in [the docs repository](https://github.com/IBCNServices/lab-kappa-docs/issues). We speak both Dutch and English.
